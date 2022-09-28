@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 8</title>
+	</head>
+	<body>
+
+		<!-- Практична робота №8-->
+
+		<!-- 1) Верстаємо статтю з 2х блоків (з макету OnlineCourse). Другий блок просто під першим. Контейнер такий як на всій сторінці. -->
+		<!-- 2) Нижче пропрацьовуємо УСІ псевдокласи та псевдоелементи з 8го уроку. -->
+		<!-- 3) (Додатково) Робимо гру "Спіймай якщо зможеш". -->
+
+		<header class="header">
+			<div class="header-container">
+				<div class="header-link">
+					<a href="#header-link-body" class="header-link-link" title="Клацни на мене!!!">Десь скоро тут буде навігація</a>
+					<div id="header-link-body" class="header-link-body">
+						<ul class="header-link-body-list">
+							<li class="header-link-body-item"><a href="" class="header-link-body-link"><img src="img/1641106691_1-abrakadabra-fun-p-zhivie-smailiki-dlya-prezentatsii-8.png" alt="смайлік" width="300" height="300" title="Щоб вийти, треба натиснути на смайлік"></a>
+								<ul class="header-link-body-sublist">
+									<li class="header-link-body-subitem">Привіт!!!</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page-top">
+				<div class="page-top-container">
+					<h1 class="page-top-headline">About the course</h1>
+					<div class="page-top-text">
+						<p class="page-top-text-paragraph">Bibendum vulputate adipiscing venenatis at est, a eu tincidunt. Leo aenean congue in sagittis, felis maecenas amet varius at. Pellentesque euismod in faucibus at elementum. Tellus maecenas libero est tempus sit cras at malesuada diam. Consequat senectus dictumst non hac dignissim montes, pretium, egestas molestie. Sed magna aliquet ornare nibh vel lectus diam eget pretium. Lorem risus nunc tincidunt tortor, mi nulla pellentesque</p>
+					</div>
+					<h2 class="page-top-headline-zwei">You will learn:</h2>
+					<div class="page-top-body">
+						<ul class="page-top-body-list">
+							<li class="page-top-body-item">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+							<li class="page-top-body-item">Vulputate placerat amet pulvinar lorem nisl.</li>
+							<li class="page-top-body-item">Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+							<li class="page-top-body-item">Etiam duis lobortis in fames ultrices commodo nibh.</li>
+							<li class="page-top-body-item">Fringilla in nec risus congue venenatis pretium posuere nec.</li>
+							<li class="page-top-body-item">Cursus eu pretium, vulputate tempus quam massa sed at.</li>
+						</ul>
+					</div>
+					<h2 class="page-top-headline-drei">Course curator</h2>
+					<h3 class="page-top-headline-vier">Cody Fisher</h3>
+					<div class="page-top-it-company">
+						<p class="page-top-it-company-paragraph">Senior UX designer in IT Product Company</p>
+					</div>
+					<div class="page-top-decor">
+						<ul class="page-top-decor-list">
+							<li class="page-top-decor-item"><img src="img/Star.png" alt="star" class="page-top-decor-picture"> 4.9 rate</li>
+							<li class="page-top-decor-item page-top-decor-img">4 courses</li>
+							<li class="page-top-decor-item">350 students</li>
+						</ul>
+					</div>
+					<div class="page-top-text">
+						<p class="page-top-text-paragraph">Mattis adipiscing aliquam eu proin metus a iaculis faucibus. Tempus curabitur venenatis, vulputate venenatis fermentum ante. Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. Sit maecenas nibh consectetur vel diam. Sem vulputate molestie laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. </p>
+					</div>
+				</div>
+			</div>
+			<!-- ЗАВДАННЯ: Пропрацьовуємо УСІ псевдокласи та псевдоелементи -->
+			<div class="page-pseudoclassics">
+				<div class="page-pseudoclassics-container">
+					<div class="page-pseudoclassics-hover">
+						<a href="https://www.google.com/" class="page-pseudoclassics-hover-link">google.com</a>
+					</div>
+					<div class="page-pseudoclassics-active">
+						<a href="https://www.youtube.com/c/FreelancerLifeStyle/videos" class="page-pseudoclassics-active-link">відео у ютубі "Фрілансер по життю"</a>
+					</div>
+					<div class="page-pseudoclassics-visited">
+						<a href="https://www.deepl.com/ru/translator" target="_blank" class="page-pseudoclassics-visited-link">перекладач</a>
+					</div>
+					<div class="page-pseudoclassics-focus">
+						<a href="https://www.colorzilla.com/gradient-editor/" class="page-pseudoclassics-focus-link">colorzilla.com</a>
+					</div>
+					<div class="page-pseudoclassics-target">
+						<a href="#restaurant-menu" class="page-pseudoclassics-target-link">Меню Ресторана:</a>
+						<a href="#restaurant" id="back">Назад</a>
+						<div id="restaurant-menu" class="page-pseudoclassics-target-menu menu-page-pseudoclassics-target">
+							<ul class="menu-page-pseudoclassics-target-list">
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/ob-05_1568611223.jpg" alt="borsch" width="700"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/Vareniki.jpg" alt="vareniki" width="800"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/388384_1.jpg" alt="kapusniak zaporizhzhya" width="800"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/7DMBu.jpg" alt="Roast with mushrooms" width="800"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/recept-1741-1-1240x827.jpg" alt="pork in the oven" width="800"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/photo.jpg" alt="Cream Caramel or Flan" width="800"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/maxresdefault.jpg" alt="Raspberry pie" width="800"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/big_444347.jpg" alt="Cottage cheese and cream mousse with grapes"></li>
+								<li class="menu-page-pseudoclassics-target-item"><img src="img/maxresdefault-1.jpg" alt="Classic Cheesecake" width="800"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="page-pseudoclassics-all">
+						<a href="https://codepen.io/" class="page-pseudoclassics-all-link">codepen.io</a>
+					</div>
+					<div class="page-pseudoclassics-first-child">
+						<ul class="page-pseudoclassics-first-child-list">
+							<li class="page-pseudoclassics-first-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-first-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-first-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-first-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+						</ul>
+					</div>
+					<div class="page-pseudoclassics-first-of-type">
+						<ul class="page-pseudoclassics-first-of-type-list">
+							<li class="page-pseudoclassics-first-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-first-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-first-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-first-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+						</ul>
+					</div>
+					<div class="page-pseudoclassics-last-child">
+						<ul class="page-pseudoclassics-last-child-list">
+							<li class="page-pseudoclassics-last-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-last-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-last-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-last-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+						</ul>
+					</div>
+					<div class="page-pseudoclassics-last-of-type">
+						<ul class="page-pseudoclassics-last-of-type-list">
+							<li class="page-pseudoclassics-last-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-last-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-last-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-last-of-type-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+						</ul>
+					</div>
+					<div class="page-pseudoclassics-nth-child">
+						<ul class="page-pseudoclassics-nth-child-list">
+							<li class="page-pseudoclassics-nth-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-nth-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-nth-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+							<li class="page-pseudoclassics-nth-child-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, laboriosam, unde eveniet vel possimus voluptatibus perspiciatis accusamus iusto optio cum ab totam nobis ullam sapiente fugit consectetur facere recusandae?</li>
+						</ul>
+					</div>
+					<div class="page-pseudoclassics-not">
+						<p class="page-pseudoclassics-not-paragraph">параграф 1</p>
+						<p class="page-pseudoclassics-not-paragraph">параграф 2</p>
+						<p class="page-pseudoclassics-not-paragraph">параграф 3</p>
+						<p class="page-pseudoclassics-not-paragraph">параграф 4</p>
+					</div>
+				</div>
+			</div>
+			<div class="page-pseudoelements">
+				<div class="page-pseudoelements-container">
+					<div class="page-pseudoelements-before">
+						<span class="page-pseudoelements-before-span">16:00</span>
+						<div class="page-pseudoelements-before-div">19:00</div>
+					</div>
+					<div class="page-pseudoelements-after">
+						<span class="page-pseudoelements-after-span">Donnerstag</span>
+						<div class="page-pseudoelements-after-div">Freitag</div>
+						<ol class="page-pseudoelements-after-list">
+							<li class="page-pseudoelements-after-item">Зміна цифру</li>
+							<li class="page-pseudoelements-after-item">Зміна цифру</li>
+							<li class="page-pseudoelements-after-item">Зміна цифру</li>
+							<li class="page-pseudoelements-after-item">Зміна цифру</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer-container">
+					<a href="#" class="footer-link">вверх сторінки</a>
+				<div class="footer-text">
+					<p class="footer-text-paragraph">Автор: Чачарський Кирило</p>
+					<p class="footer-text-paragraph">© 2022_kirillchacha#6370</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
